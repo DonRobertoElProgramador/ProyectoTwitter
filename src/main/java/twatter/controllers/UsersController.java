@@ -1,0 +1,20 @@
+package twatter.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UsersController {
+
+	
+	@RequestMapping("/users")
+	public String getSaludo() {
+		
+		return "Hola";
+		
+	}
+	
+	
+	
+	
+}
